@@ -35,14 +35,14 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   i = 0
-  var newArray = []
+  count = 0
   while (i < arrayOfNumbers.length) {
     if (arrayOfNumbers[i]%2 == 0){
-      newArray.push(arrayOfNumbers[i])
+      count++
     }
   i++  
   } 
-  return newArray.length;
+  return count;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
